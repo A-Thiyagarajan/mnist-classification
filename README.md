@@ -26,14 +26,29 @@ It is a widely used and deeply understood dataset and, for the most part, is “
 ## DESIGN STEPS
 
 ### STEP 1:
+
 Import tensorflow and preprocessing libraries
-
 ### STEP 2:
-Build a CNN model
 
+Download and load the dataset
 ### STEP 3:
 
-Compile and fit the model and then predict
+Scale the dataset between it's min and max values
+### STEP 4:
+
+Using one hot encode, encode the categorical values
+### STEP-5:
+
+Split the data into train and test
+### STEP-6:
+
+Build the convolutional neural network model
+### STEP-7:
+
+Train the model with the training data and Plot the performance plot
+### STEP-9:
+
+Evaluate the model with the testing data and Fit the model and predict the single input
 
 ## PROGRAM
 
